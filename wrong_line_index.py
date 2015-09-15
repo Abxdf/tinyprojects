@@ -8,8 +8,8 @@
 # this will print all the line count for all the lines that mismatch
 #**This program has been developed assuming that both files will have same number of lines
 
-hroutput = open('hrop.out')
-output = open('op.out') 
+hroutput = open('hrop.out','r')
+output = open('op.out','r') 
 count=1;
 hroutputlist=[]
 outputlist=[]
