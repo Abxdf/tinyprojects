@@ -19,3 +19,6 @@ The 75th factorial, which is calculated from this program is
 
 #tinyproject 5(mulBigintRecursionOptimized.cpp)
 Similar to the tinyproject 3, with reduced time complexity. It works on the divide and conquer strategy. This algorithm is explained nicely by 'Tim	Roughgarden' in his first week class of 'Design and Analysis of Algorithms Coursera course.'
+
+#tinyproject 6(subBigint.cpp)
+This file consists of a function 'subBigints' which can be used to substract two big integers in c++. Big integers are stored in string format. Function accepts two arguments and returns the sum of two arguments.
