@@ -8,3 +8,6 @@ This will print the line number where the two files differ.
 
 #tinyproject 2(addBigints.cpp)
 This file consists of a function 'addBigints' which can be used to add two big integers in c++. Big integers are stored in string format. Function accepts two arguments and returns the sum of two arguments.
+
+#tinyproject 3(mulBigints.cpp)
+This file consists of a function 'mulBigints' which can be used to multiply two big integers in c++. Big integers are stored in string format. Function accepts two arguments and returns the sum of two arguments.
