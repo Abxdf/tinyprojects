@@ -11,3 +11,6 @@ This file consists of a function 'addBigints' which can be used to add two big i
 
 #tinyproject 3(mulBigints.cpp)
 This file consists of a function 'mulBigints' which can be used to multiply two big integers in c++. Big integers are stored in string format. Function accepts two arguments and returns the sum of two arguments.
+
+#tinyproject 4(factorialBigints.cpp)
+This file is used for generating factorial of a number, without worrying about the integer over flows as it uses strings to store data and mulBigints function for generating factorial of a number.  
