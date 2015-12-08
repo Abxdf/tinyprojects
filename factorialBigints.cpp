@@ -1,8 +1,6 @@
 //Developed by Narendra Vardi
-//This program will prints first n fibonacci numbers without worrying about the integer overflows.
+//This program will prints first nth factorial of a numbers without worrying about the integer overflows.
 //uses mulBigints.cpp for this purpose 
-
-
 
 #include<cstdio>
 #include<string>
@@ -135,18 +133,16 @@ string mulBigints(string a,string b)
 }
 int main()
 {
-	vector<string> fib;
-	fib.push_back("1");
+	vector<string> fact;
+	fact.push_back("1");
 	int n;
 	scanf("%d",&n);
 	for(int i=2;i<=n;++i)
 	{
-		int size=fib.size()-1;
-		fib.push_back(mulBigints(to_string(i),fib[size]));
+		int size=fact.size()-1;
+		fact.push_back(mulBigints(to_string(i),fact[size]));
 	}
-	for(int i=0;i<fib.size();++i)
-	{
-		cout<<fib[i]<<"\n";
-	}
+	int size=fact.size()-1;
+	cout<<fact[size]<<"\n";
 	return 0;
 }
