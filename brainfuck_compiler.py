@@ -12,8 +12,9 @@ def initialise():
 
 #start of function
 def brainfuck(instruction):
-	#print instruction
-	
+	printvalue = ""
+	initialise()	
+	global index
 	iterator=0
 	while(iterator < len(instruction)):
 		# + : Increments the value at the current cell by one.
@@ -34,11 +35,11 @@ def brainfuck(instruction):
 			iterator+=1
 		# . : Prints the ASCII value at the current cell (i.e. 65 = 'A')
 		elif instruction[iterator]=='.':  
-			print ord(cells[index]) 
+			printvalue+=cells[index]
 			iterator+=1
 		# , : Reads a single input character into the current cell.
 		elif instruction[iterator]==',': 
-			cells[index]=(raw_input()[0])
+			cells[index]=chr(int(raw_input()))
 			iterator+=1
 		#[ : If the value at the current cell is zero, skips to the corresponding ] .
 	    #    Otherwise, move to the next instruction.'''
@@ -84,22 +85,12 @@ def brainfuck(instruction):
 						return;
 		else:
 			iterator+=1
-	
+	print printvalue
 #end of function
 
 def main():
-	initialise()
-	print "you are working with brainf**k compiler now!"
-	print "Enter exit() to exit program"
-	while True:
-		inputstring = raw_input(">").strip()
-		if inputstring=="exit()":
-			print "brainfuck stopped!"
-			break
-		else:
-			brainfuck(inputstring)
-
-
+	inputstring = raw_input(">").strip()
+	brainfuck(inputstring),
 
 if __name__ == '__main__':
 	main()
