@@ -40,4 +40,8 @@ There are eight commands:
 ] : If the value at the current cell is zero, move to the next instruction.Otherwise, move backwards in the instructions to the corresponding [ .
 [ and ] form a while loop. Obviously, they must be balanced.
 </pre>
-As I was new python, I wanted to develop the compiler for brainfuck in python. I did it, but there are few errors and hence it is not fully functional. If possible please try to help me out with the issues.
+I was learning python and Hence, I have taken up the project of developing brainfuck compiler in python. Advanced implementation is not done as I have not worked with brainfuck. It is just a simple compiler without any exception handlings. 
+It will accept only one line of brainfuck source code, hence care should be taken.
+<pre> ++++++++[>++++[>++>+++>+++>+<<<<-]>+>+>->>+[<]<-]>>.>---.+++++++..+++.>>.<-.<.+++.------.--------.>>+.>++. </pre>
+Above code taken from wikipedia, prints "Hello World!" 
+
