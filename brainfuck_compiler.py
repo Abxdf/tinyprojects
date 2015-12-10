@@ -1,8 +1,7 @@
 #Developed by Narendra Vardi
 #chr takes a number as an input and returns corresponding ASCII value character
 #ord takes a character and returns ascii number as the input
-#storing ascii characters in cells
-#character is what is stored in cells
+#character is what is stored in cells, which means the ASCII codes
 cells=[]
 numofcells=30000
 index=0
