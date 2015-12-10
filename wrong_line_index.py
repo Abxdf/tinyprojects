@@ -17,13 +17,16 @@ for line in hroutput:
 	hroutputlist.append(line.strip())
 for line in output:
 	outputlist.append(line.strip())
-
+issame = True
 for i in xrange(0,len(outputlist)):
 	if(hroutputlist[i]!=outputlist[i]):
+                issame = False
 		print count
 		count+=1
 	else:
 		count+=1
+if issame:
+    print "Both files have same content!!!"
 
 hroutput.close()
 output.close()	
