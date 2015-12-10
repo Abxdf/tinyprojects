@@ -22,3 +22,23 @@ Similar to the tinyproject 3, with reduced time complexity. It works on the divi
 
 #tinyproject 6(subBigint.cpp)
 This file consists of a function 'subBigints' which can be used to substract two big integers in c++. Big integers are stored in string format. Function accepts two arguments and returns the sum of two arguments.
+
+#tinyproject 7(brainfuck_compiler.py)
+brainfuck is an extremely minimal programming language with just 8 commands. 
+
+These commands are very simple to understand also.
+
+There are eight commands:
++ : Increments the value at the current cell by one.
+- : Decrements the value at the current cell by one.
+> : Moves the data pointer to the next cell (cell on the right).
+< : Moves the data pointer to the previous cell (cell on the left).
+. : Prints the ASCII value at the current cell (i.e. 65 = 'A').
+, : Reads a single input character into the current cell.
+[ : If the value at the current cell is zero, skips to the corresponding ] .
+Otherwise, move to the next instruction.
+] : If the value at the current cell is zero, move to the next instruction.
+Otherwise, move backwards in the instructions to the corresponding [ .
+[ and ] form a while loop. Obviously, they must be balanced.
+
+As I was new python, I wanted to develop the compiler for brainfuck in python. I did it, but there are few errors and hence it is not fully functional. If possible please try to help me out with the issues.
