@@ -29,16 +29,15 @@ brainfuck is an extremely minimal programming language with just 8 commands.
 These commands are very simple to understand also.
 
 There are eight commands:
+<pre>
 + : Increments the value at the current cell by one.
 - : Decrements the value at the current cell by one.
 > : Moves the data pointer to the next cell (cell on the right).
 < : Moves the data pointer to the previous cell (cell on the left).
 . : Prints the ASCII value at the current cell (i.e. 65 = 'A').
 , : Reads a single input character into the current cell.
-[ : If the value at the current cell is zero, skips to the corresponding ] .
-Otherwise, move to the next instruction.
-] : If the value at the current cell is zero, move to the next instruction.
-Otherwise, move backwards in the instructions to the corresponding [ .
+[ : If the value at the current cell is zero, skips to the corresponding ].Otherwise, move to the next instruction.
+] : If the value at the current cell is zero, move to the next instruction.Otherwise, move backwards in the instructions to the corresponding [ .
 [ and ] form a while loop. Obviously, they must be balanced.
-
+</pre>
 As I was new python, I wanted to develop the compiler for brainfuck in python. I did it, but there are few errors and hence it is not fully functional. If possible please try to help me out with the issues.
