@@ -80,7 +80,7 @@ int main()
 {
   test_for_string();
   test_for_int();
-	test_for_char();
+  test_for_char();
 
 	return 0;
 }
