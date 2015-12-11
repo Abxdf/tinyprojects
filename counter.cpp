@@ -78,7 +78,8 @@ void test_for_char()
 
 int main()
 {
-
+  test_for_string();
+  test_for_int();
 	test_for_char();
 
 	return 0;
