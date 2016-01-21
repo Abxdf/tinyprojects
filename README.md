@@ -46,8 +46,8 @@ It will accept only one line of brainfuck source code, hence care should be take
 Above code taken from wikipedia, prints "Hello World!" 
 
 #tinyproject 8(comp.py)
-How many times have you written <pre>javac test.java && java test</pre> in order to compile and execute test.java file???
+How many times have you written "javac test.java && java test" in order to compile and execute test.java file???
 In order to reduce the length of the command that should be typed in order to compile and execute a program...
-I have developed this python script. This file takes as <pre>command line arguments</pre> <pre>name</pre> and <pre>extension</pre> of the file 
+I have developed this python script. This file takes as command line arguments name and extension of the file 
 and executes commands for compiling and executing the program.
-For now it supports only <pre>c, c++, java, python, scala and racket</pre>
+For now it supports only c, c++, java, python, scala and racket
